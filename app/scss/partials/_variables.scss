@@ -1,0 +1,58 @@
+/*------------------------------------*\
+    VARIABLES
+\*------------------------------------*/
+/* Colorzzz */
+/*Type*/
+/*Dimensions*/
+/*Breakpoints*/
+/*Animation*/
+
+$color1: #793371; // Purple
+$color2: #FFCD4D; // Yellow
+$color3: #E53636; // Red
+$color4: #26B71C; // Green
+$color5: #59AFFF; // Blue
+$color6: #E89121; // Orange
+
+$color7: #00FFFF; // Cyan
+$color8: #0000FF; // Blue
+$color9: #7F00FF; // Purple
+$color10: #FF00FF; // Magenta
+$color11: #333; // Almost Black
+$color12: #FFF; // White
+
+
+// Fonts
+//$blockquote: Lato, "Lato", "Helvetica", Helvetica, Arial, sans-serif;
+
+// Mixin variables
+$defined-bs-type: border-box !default;
+
+// Breakpoint variables
+// ====================================================================
+$XS: 18em; // roughly speaking, around 288px wide with 16px body font
+$S: 30em; // roughly speaking, around 480px wide with 16px body font
+$M: 43em; // roughly speaking, around 688px wide with 16px body font
+$L: 57em; // roughly speaking, around 912px wide with 16px body font
+$XL: 90em; // roughly speaking, around 1456px wide with 16px body font
+
+// Default values for text-shadow mixin
+// ====================================================================
+
+$default-text-shadow-color: darken($color11,20%);
+$default-text-shadow-blur: 0px;
+$default-text-shadow-v-offset: 4px;
+$default-text-shadow-h-offset: 3px;
+
+// Default values for box-shadow mixin
+// ====================================================================
+$default-box-shadow-color: lighten($color10, 50%);
+$default-box-shadow-h-offset: 1px;
+$default-box-shadow-v-offset: 1px;
+$default-box-shadow-blur: 2px;
+$default-box-shadow-spread: false;
+$default-box-shadow-inset: false;
+
+// Default value for border-radius
+// ====================================================================
+$default-border-radius: 5px;
